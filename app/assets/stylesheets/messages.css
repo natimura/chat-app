@@ -1,0 +1,35 @@
+.wrapper {
+  display:flex;
+  height:100vh;
+}
+.side {
+  width:300px;
+}
+.side-top {
+  height:100px;
+  background-color: #253141;
+  padding:0 20px;
+}
+.side-bar {
+  background-color:#2f3e51;
+  height:calc(100vh - 100px);
+  padding:0 20px;
+}
+.main {
+  width:calc(100vw - 300px);
+}
+.main-head {
+  height:100px;
+  background-color:#ffffff;
+  padding:0 40px;
+}
+.main-chat {
+  height:calc(100vh - 190px);
+  background-color:#fafafa;
+  padding:46px 40px 0;
+}
+.main-foot {
+  height:90px;
+  background-color:#dddddd;
+  padding:20px 40px;
+}
